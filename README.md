@@ -21,7 +21,7 @@
 
 ### Repository structure
 1. `cuisine-prediction.ipynb` notebook contains the full code along with the results obtained
-2. If GitHub is unable to render the above notebook in your browser, you can instead see the notebook's equivalent HTML export `cuisine_prediction.html` in the `Exports/` directory
+2. If GitHub is unable to render the above notebook in your browser, you can instead download and see the notebook's equivalent HTML export `cuisine_prediction.html` (see `Exports/` directory)
 3. `Submissions/` directory contains predictions of various models on Kaggle's test data (these can be submitted directly on Kaggle)
 4. We split Kaggle's train data into `my_train_split.json` and `my_test_split.json` so that we can do more sophisticated analysis of results rather than just analyzing accuracy (this is necessary since ground truth of Kaggle's test data is not available)
 5. `embeddings/` contains files that hold [node2vec](https://github.com/aditya-grover/node2vec) embeddings of the nodes of the `my_train_split` network
