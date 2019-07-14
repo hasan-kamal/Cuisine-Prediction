@@ -1,7 +1,7 @@
 # Cuisine-Prediction
 
 ### Introduction
-- In this notebook, we design a prediction system that uses [recipe-ingredient data from this Kaggle challenge](https://www.kaggle.com/c/whats-cooking) to predict the cuisine of a given recipe
+- In this notebook, we implement a prediction system that uses [recipe-ingredient data from this Kaggle challenge](https://www.kaggle.com/c/whats-cooking) to predict the cuisine of a given recipe
 - We implement and evaluate techniques from the following domains:
     1. **Simple (baseline) heuristics**
         1. Baseline #1: For each ingredient belonging to the given test ingredient list, find the cuisine in which this ingredient is used the most. Among all such cuisines, pick the most frequently occurring cuisine
